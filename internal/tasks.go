@@ -48,7 +48,7 @@ func ListTasks(tasks []models.Task) bool {
 		for _, task := range tasks {
 			finished := "No"
 			if task.Completed {
-				finished = "Yes"
+				finished = "Sí"
 			}
 			fmt.Printf("%d|\t|%s|\t|%s\n", task.ID, task.Text, finished)
 		}
